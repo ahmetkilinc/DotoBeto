@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1072564858390",
+    "firebase_url": "https://dotobeto.firebaseio.com",
+    "project_id": "dotobeto",
+    "storage_bucket": "dotobeto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072564858390:android:14dc7bec1d6fa481",
+        "android_client_info": {
+          "package_name": "net.ahmetkilinc.dotobeto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072564858390-rbn74ctg69fiuc9erj6nop376v14pdaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.ahmetkilinc.dotobeto",
+            "certificate_hash": "48872b6e986cb3deb029f0830212da71f84b0c16"
+          }
+        },
+        {
+          "client_id": "1072564858390-crgjnf4t0c39p92c382nhuo4anrh2ijo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUkBmCAm8BmXFRbj6N8SRtx7d9iPsW_QU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072564858390-crgjnf4t0c39p92c382nhuo4anrh2ijo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
