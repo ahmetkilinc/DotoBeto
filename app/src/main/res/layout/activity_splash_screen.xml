@@ -16,22 +16,37 @@
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dotobeto" />
+        app:srcCompat="@drawable/dotobetov2" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="118dp"
-        android:layout_height="18dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:id="@+id/textViewDtBt"
+        android:layout_width="275dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="56dp"
         android:layout_marginTop="8dp"
-        android:gravity="right"
-        android:text="ahmetkilinc.net"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Do together, Be together"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewgobletsoft" />
+
+    <TextView
+        android:id="@+id/textViewgobletsoft"
+        android:layout_width="159dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="GobletSoft"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 </android.support.constraint.ConstraintLayout>

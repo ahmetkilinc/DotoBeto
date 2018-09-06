@@ -22,10 +22,12 @@ public class SplashScreen extends AppCompatActivity {
         Thread timerThread = new Thread(){
             public void run(){
                 try{
-                    sleep(5000);
+                    sleep(750);
                 }catch(InterruptedException e){
+
                     e.printStackTrace();
                 }finally{
+
                     Intent intent = new Intent(SplashScreen.this, Login.class);
                     startActivity(intent);
                 }
@@ -36,6 +38,7 @@ public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onPause() {
+
         // TODO Auto-generated method stub
         super.onPause();
         finish();
