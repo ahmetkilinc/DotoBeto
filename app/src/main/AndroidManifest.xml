@@ -23,8 +23,12 @@
         <activity android:name=".Login" />
         <activity
             android:name=".MainFeed"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity android:name=".Profile"></activity>
-    </application>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
+        </activity>
+    </application>
 </manifest>
