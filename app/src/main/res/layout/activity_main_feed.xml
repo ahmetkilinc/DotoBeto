@@ -19,16 +19,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dtbtactionbar"
+            tools:layout_editor_absoluteX="16dp" />
+
         <TextView
-            android:id="@+id/textViewDevamEdenGorevler"
+            android:id="@+id/textViewMainFeed"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
+            android:paddingStart="10dp"
             android:text="DotoBeto"
             tools:layout_editor_absoluteX="16dp" />
 
     </android.support.v7.widget.Toolbar>
+
 
 
 

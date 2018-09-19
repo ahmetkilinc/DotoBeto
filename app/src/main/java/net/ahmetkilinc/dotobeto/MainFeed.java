@@ -73,21 +73,6 @@ public class MainFeed extends AppCompatActivity {
 
         //Toast.makeText(getApplicationContext(), emailSession + " " + displayNameSession, Toast.LENGTH_LONG).show();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         //navigation drawer header
 
         //initialize and create the image loader logic
@@ -105,6 +90,7 @@ public class MainFeed extends AppCompatActivity {
 
             @Override
             public Drawable placeholder(Context ctx, String tag) {
+
                 //define different placeholders for different imageView targets
                 //default tags are accessible via the DrawerImageLoader.Tags
                 //custom ones can be checked via string. see the CustomUrlBasePrimaryDrawerItem LINE 111
@@ -204,6 +190,11 @@ public class MainFeed extends AppCompatActivity {
                                 startActivity(i);
                             }
 
+                            else if (drawerItem.getIdentifier() == 2){
+
+                                startActivity(new Intent(getApplicationContext(), Profile.class));
+                            }
+
                             /*if(drawerItem.getIdentifier() == 1){
 
                                 startActivity(new Intent(Gorevler.this, Gorevler.class));
@@ -234,28 +225,5 @@ public class MainFeed extends AppCompatActivity {
                     }
                 })
                 .build();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
